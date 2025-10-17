@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Contact Form </title>
+	<link href="stylesheet.css" rel="stylesheet">
+
+	<style>
+		input { width: 100;
+				padding: 10px;
+				margin-top: 5px;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+				font-size: 25px;}
+
+		.yes { width: 100;
+				padding: 10px;
+				margin-top: 5px;
+				border: 1px solid #ccc;
+				border-radius: 6px;
+				box-sizing: border-box;
+				font-family: 'OMORI_GAME';
+				font-size: 25px;} 
+
+		body { font-family:'OMORI_GAME';
+			text-align: center;
+			font-size: 25px;
+			background-image:url(bg.png);
+			background-size: cover;
+}
+
+		.box {margin-top: 10px; 
+			margin-left: 300px; 
+			margin-right: 300px; 
+			padding: 50px;
+			border-radius: 10px;
+			background-color: floralwhite;}
+	</style>
+</head>
+<body>
+	<div class="box">
+	<form> 
+			<h1 style="background-color: darkseagreen; border-radius: 15px;"> Contact Me! </h1>
+
+			<h2> Name </h2>
+			<label for="name"> </label>
+			<br>
+			<input type="text" id="name" placeholder="Wing-Ding Gaster" class="yes">
+
+		<br> 
+			<h2> Email </h2>
+			<label for="email"> </label>
+			<br>
+			<input type="text" id="email" placeholder="mystery_man@gmail.com" class="yes">
+			<br>
+			<label for="menu"> How did you know me? </label>
+			<select id="menu" name="section" class="yes">  
+				<option value="Youtube"> Youtube </option>
+				<option value="Facebook"> Facebook </option>
+				<option value="Friends"> Friends </option>
+				<option value="Other"> Other </option>
+			</select>
+
+		<br>
+			<h2> Comments on the portfolio </h2>
+			<label for="feed"> </label>
+			<br>
+			<textarea id="feed" name="comment" rows="10" cols="50" placeholder="......." class="yes"> </textarea>
+
+		<br>
+			<h2> Rate the Portfolio: </h2>
+
+			<input type="radio" id="rad1" name="radiogrp">
+			<label for="rad1"> 1 (worst) </label>
+			
+			<input type="radio" id="rad2" name="radiogrp">
+			<label for="rad2"> 2 </label>
+
+			<input type="radio" id="rad3" name="radiogrp">
+			<label for="rad3"> 3 </label>
+
+			<input type="radio" id="rad4" name="radiogrp">
+			<label for="rad4"> 4 </label>
+
+			<input type="radio" id="rad5" name="radiogrp">
+			<label for="rad5"> 5 (best) </label>
+
+		<br>
+			
+			</select>
+		<br>
+
+		<input type="submit" value="Submit" {width: 100;
+				padding: 10px;
+				margin-top: 5px;
+				border: 1px solid #ccc;
+				border-radius: 6px;
+				box-sizing: border-box;}
+				class="yes">
+	</form> 
+</div>
+
+</body>
+</html>

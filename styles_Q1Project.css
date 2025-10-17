@@ -1,0 +1,28 @@
+* {
+	margin: 15;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+	body {background-image:url(bg.png);
+		background-size: cover;
+		font-family: 'OMORI_GAME';
+		font-size: 30px;}
+
+	h2 {background-color: floralwhite;
+		color: darkseagreen;
+		border-radius: 15px;
+		width: 1000px;}
+
+	.header {background-color: floralwhite;
+		margin-top: 15px; 
+		margin-left: 15px; 
+		margin-right: 15px; 
+		padding: 50px;
+		border-radius: 15px;}
+
+	.text {background-color: whitesmoke;
+		border-radius: 15px;
+		margin-top: 5px; 
+		margin-left: 20px; 
+		margin-right: 20px;}
